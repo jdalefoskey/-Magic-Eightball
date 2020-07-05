@@ -27,7 +27,7 @@ Then either open the html files in browser for inspection, or using your choice 
 
 ## Deploying the Scheduler
 ---
-From any web browser visit this site  https://jdalefoskey.github.io/homeworksix/ to begin using
+From any web browser visit this site  https://jdalefoskey.github.io/-Magic-Eightball/ to begin using
 
 ## Repository contents
 ---
