@@ -1,0 +1,72 @@
+* {
+	color: black;
+	font-family: 'Bangers';
+	font-weight: 500;
+	font-size: 25px;
+}
+
+body {
+	height: 100vh;
+	background-image: url("background.jpg");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#page {
+	display: grid;
+	width: 100vw;
+	height: 100%;
+	grid-template-areas: 'head head' 'nav  main' 'nav  foot';
+	grid-template-rows: 50px 1fr 30px;
+	grid-template-columns: 150px 1fr;
+}
+
+#page > header {
+	grid-area: head;
+}
+
+#page > nav {
+	grid-area: nav;
+}
+
+#page > main {
+	grid-area: main;
+}
+
+#page > footer {
+	grid-area: foot;
+}
+
+#header {
+	justify-content: center;
+	align-items: center;
+}
+
+#headerContainer {
+	margin-left: 200px;
+	padding-top: 10%;
+}
+
+#question {
+	color: white;
+	margin-top: 40px;
+	letter-spacing: 2.5;
+}
+
+#eightBallAnswer {
+	margin-top: 25px;
+	font-size: 25px;
+	max-width: 300px;
+	color: white;
+}
+
+#input {
+	background-color: lightgray;
+}
+
+#labelOne {
+	color: white;
+}

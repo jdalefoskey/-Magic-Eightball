@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>8 Ball Question</title>
+  </head>
+  <body>
+    <section id="page">
+      <header id="header">
+        
+      </header>
+      
+      <nav>
+        <div class="answerBox">
+          <div id="question">The magic 8 ball says:</div>
+        </div>
+        <div class="answerBox" id="eightBallAnswer">
+        </div>
+       
+      </nav>
+      <main>
+        
+      </main>
+      <footer>
+        <div id="headerContainer">
+          <label id="labelOne" for="input">If you dare, ask the magic 8 ball a question?</label>
+          <input onclick="clearContent()" type="text" name="input" id="input">
+          <button onclick="startGame()" type="reset" value="Reset">Ask</button>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.js"
+      integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="jelly.js"></script>
+  </body>
+</html>
